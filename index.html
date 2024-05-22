@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body class="body">
+    
+    <div class="inputholder">
+        
+        <br><br><br>
+        <h1 class="pt-serif-bold">Air Quality Index</h1>
+        
+        <form id="form">
+            <input type="text" name="Latitude" placeholder="Latitude" id="Latitude">
+            <input type="text" name="Longitude" placeholder="Longitude" id="Longitude">
+            <br><br><br>
+            <button class="button" type="submit">Check Weather</button>
+        </form>
+        <div class="info" id="result">
+            <h1>Air Quality</h1>
+            <p>AQI: <span id="aqi"></span></p>
+            <p>CO: <span id="co"></span></p>
+            <p>NO2: <span id="no2"></span></p>
+            <p>O3: <span id="o3"></span></p>
+            <p>PM2.5: <span id="pm2"></span></p>
+            <p>PM10: <span id="pm10"></span></p>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
